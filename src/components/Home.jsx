@@ -3,6 +3,12 @@ import { motion } from "framer-motion";
 import macbook from "../assets/images/macbook_front.svg";
 
 const Home = () => {
+  const handleScrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <>
       <div className="container flex flex-col items-center justify-center gap-4">
@@ -32,6 +38,7 @@ const Home = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, ease: "easeOut", delay: 0.4 }}
           className="px-3 py-1.5 bg-black text-white rounded-full"
+          onClick={() => handleScrollToSection("contact")}
         >
           Contact Us
         </motion.button>

@@ -18,7 +18,7 @@ const About = () => {
   return (
     <div className="mt-32 grid md:grid-cols-4 items-start justify-center gap-x-12 pt-12">
       <motion.div
-        className="h-[250px] col-span-2 md:h-[300px] lg:h-[350px] xl:h-[450px] ml-32 md:mx-12 lg:mx-20"
+        className="h-[250px] col-span-2 md:h-[300px] lg:h-[350px] xl:h-[450px]  md:mx-12 lg:mx-20"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }} // Trigger animation when 20% of the element is in view
