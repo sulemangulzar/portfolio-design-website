@@ -75,7 +75,7 @@ const Services = () => {
           </h1>
         </div>
         <div className="w-[350px] md:w-[380px] lg:w-[480px] xl:w-[500px]">
-          <p className="text-[8px] xl:text-base mt-2">
+          <p className="text-[11px]  xl:text-base mt-2">
             This is a simple hero unit, a simple jumbotron-style component for
             calling extra attention to featured content or information.
           </p>

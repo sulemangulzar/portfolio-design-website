@@ -45,7 +45,7 @@ const About = () => {
           </h1>
         </div>
         <div className="w-[350px] md:w-[380px] lg:w-[480px] xl:w-[500px]">
-          <p className="text-[9px] md:text-xsm md:px-2 xl:text-base mt-2">
+          <p className="text-[11px]  md:text-xsm md:px-2 xl:text-base mt-2">
             We see our role as that of a legal partner responsible for
             constantly finding practical and pragmatic solutions that are
             adapted to our clients' needs.

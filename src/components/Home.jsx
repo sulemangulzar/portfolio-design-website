@@ -28,7 +28,7 @@ const Home = () => {
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
           className="w-[350px] md:w-[450px]"
         >
-          <p className="text-[9px] text-center">
+          <p className="text-[11px] text-center">
             Ask your questions and discuss your projects with our partners. They
             are here to help you grow your business!
           </p>
